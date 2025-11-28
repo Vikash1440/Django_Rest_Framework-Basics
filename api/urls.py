@@ -22,6 +22,4 @@ urlpatterns = [
     path('blogs/<int:pk>/',views.BlogDetailView.as_view(),name='Blogs'),
     path('comments/<int:pk>/',views.CommentDetailView.as_view(),name='Comments'),
 
-    
-
 ]
